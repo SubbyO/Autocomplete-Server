@@ -1,0 +1,91 @@
+{
+  "NumTextMessages": 14,
+  "Issues": [
+    {
+      "IssueId": 1,
+      "CompanyGroupId": 1,
+      "Messages": [
+        {
+          "IsFromCustomer": true,
+          "Text": "Yes, that sounds good."
+        },
+        {
+          "IsFromCustomer": true,
+          "Text": "4pm would be good for me. Thanks for your help!"
+        }
+      ]
+    },
+    {
+      "IssueId": 2,
+      "CompanyGroupId": 2,
+      "Messages": [
+        {
+          "IsFromCustomer": true,
+          "Text": "I'm having an issue with my router."
+        },
+        {
+          "IsFromCustomer": false,
+          "Text": "Hi, how may I help you today?"
+        },
+        {
+          "IsFromCustomer": false,
+          "Text": "When did this occur?"
+        }
+      ]
+    },
+    {
+      "IssueId": 3,
+      "CompanyGroupId": 1,
+      "Messages": [
+        {
+          "IsFromCustomer": false,
+          "Text": "Hi, how may I help you today?"
+        },
+        {
+          "IsFromCustomer": false,
+          "Text": "When can we schedule the delivery?"
+        },
+        {
+          "IsFromCustomer": false,
+          "Text": "Thanks, have a great day!"
+        }
+      ]
+    },
+    {
+      "IssueId": 2,
+      "CompanyGroupId": 3,
+      "Messages": [
+        {
+          "IsFromCustomer": false,
+          "Text": "Hi, how may I help you today? What is your name and account number?"
+        },
+        {
+          "IsFromCustomer": false,
+          "Text": "Thanks, have a great day!"
+        }
+      ]
+    },
+    {
+      "IssueId": 4,
+      "CompanyGroupId": 2,
+      "Messages": [
+        {
+          "IsFromCustomer": false,
+          "Text": "Hi, how may I help you today?"
+        },
+        {
+          "IsFromCustomer": false,
+          "Text": "What can I help you with today?"
+        },
+        {
+          "IsFromCustomer": false,
+          "Text": "What is your name and account number?"
+        },
+        {
+          "IsFromCustomer": false,
+          "Text": "What is your name and account number?"
+        }
+      ]
+    }
+  ]
+}

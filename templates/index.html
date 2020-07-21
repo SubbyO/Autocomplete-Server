@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Autocomplete Server</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+		<script src="{{ url_for('static', filename='js/jquery-3.3.1.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+	</head>
+
+	<body>
+		<div id="content">
+			<h1 id="title">Autocomplete Server User Interface</h1>
+			<div id="autocomplete-area">
+				<h2 id="prompt">Type a message:</h2>
+				<div id="autocomplete-box">
+					<input id="messagebox" type = "text" placeholder="e.g. How can I help you?"><br>
+				</div>
+				<div id="options">
+					<span id="range-slider-label">Max number of results:</span>
+					<div class="range-slider">
+						<input id="range-slider" class="range-slider__range" type="range" value="10" min="0" max="30" step="1">
+						<span class="range-slider__value">10</span>
+					</div>
+				</div>
+			</div>
+			<p id="footer">Written and designed by Subby Olubeko. &copy; 2018.</p>
+		</div>
+	</body>
+</html>
